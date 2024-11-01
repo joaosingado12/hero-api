@@ -7,7 +7,7 @@ import { HeroModule } from './hero/hero.module';
 
 @Module({
   imports: [HeroModule],
-  controllers: [AppController, HeroController],
-  providers: [AppService, HeroService],
+  controllers: [AppController],
+  providers: [AppService],
 })
 export class AppModule {}
