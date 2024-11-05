@@ -1,6 +1,6 @@
 import { Injectable } from '@nestjs/common';
 import { HeroDto } from './dto/hero.dto';
-import { PrismaService } from 'src/database/prisma.service';
+import { PrismaService } from '../database/prisma.service';
 import { error } from 'console';
 
 @Injectable()
